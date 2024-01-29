@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Página que faz a função de uma lista de tarefas">
+	<meta name="author" content="Vitor Souza">
+	<title>Lista de Tarefas</title>
+	<!-- BOOTSTRAP ICONS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- FAVICON -->
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+	<!-- JAVASCRIPT -->
+	<script src="js/script.js" defer></script>
+</head>
+<body>
+	<!-- CONTAINER PRINCIPAL -->
+	<div class="container-principal">
+		<!-- CABEÇALHO -->
+		<header class="cabecalho">
+			<h1 class="titulo-principal">Lista de Tarefas</h1>
+		</header>
+		<!-- CONTEÚDO PRINCIPAL -->
+		<main class="conteudo-principal">
+			<h2 class="titulo-conteudo-principal">
+				Registre suas tarefas! <i class="bi bi-emoji-smile"></i>
+			</h2>
+			<form id="form">
+				<div class="box-input">
+					<input type="text" id="tarefa" placeholder="Digite uma tarefa..." required>
+					<span id="msgErroTarefa">Teste</span>
+				</div>
+				<div class="box-btn-submit">
+					<button type="submit" class="btn-submit">
+						Adicionar <i class="bi bi-plus-circle"></i>
+					</button>
+				</div>
+			</form>
+			<div id="boxResultado"></div>
+		</main>
+		<!-- RODAPÉ -->
+		<footer class="rodape">
+			<p class="creditos-desenvolvedor">
+				Desenvolvido por <a href="https://www.github.com/vitorgarcias17" target="_blank" class="link-creditos-desenvolvedor">Vitor Souza</a>
+			</p>
+		</footer>
+	</div>
+</body>
+</html>
